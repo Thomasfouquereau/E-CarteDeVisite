@@ -73,3 +73,87 @@ body{
     font-weight: 600;
     padding: 20px 100px;
 }
+
+/* ////////////////////////// offres ////////////////////////// */
+
+.HeaderContainer-1{
+    background-color: #0B1418;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border-radius:0 0 20px 20px ;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 1150px;
+}
+
+.title1{
+    display: flex;
+    text-align: left;
+    font-size: 65px;
+    font-weight: 600;
+    margin: 0;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.after::after{
+    content: '';
+    display: block;
+    width: 80%;
+    height: 10px;
+    background-color: #F74C04;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50%;
+    transform: translate(-50%, 60px);
+}
+
+.item-0{
+    padding-top: 50px;
+    background-color: #F74C04;
+    color: #fff;
+    height: 1000px;
+    width: 100%;
+    padding-right: 10px;
+    border-radius: 70px;
+    transform: translateY(-75px);
+    display: flex;
+    flex-direction: column;
+}
+
+.item-title{
+    padding-left: 50px;
+    font-size: 65px;
+    font-weight: 600;
+    margin: 0;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.item-description{
+    padding-left: 50px;
+    font-size: 55px;
+    font-weight: 300;
+    margin: 0;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.item-description::after{
+    content: '';
+    display: block;
+    width: 80%;
+    height: 10px;
+    background-color: #0B1418;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50%;
+    transform: translate(-50%, 60px);
+
+}
