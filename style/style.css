@@ -32,3 +32,24 @@ body{
 .item{
     margin-bottom: 20px;
 }
+
+.MainContainer{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    margin-top: 170px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.MainContainer h2{
+    margin-bottom: 70px;
+    font-size: 65px;
+    text-shadow: #0b141874 10px 10px 30px;
+    font-weight: 700;
+}
+
+.MainContainer p{
+    font-size: 25px;
+    font-weight: 400;
+}
